@@ -1,10 +1,10 @@
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-code"></i>
+                <i class="fab fa-black-tie"></i>
                 </div>
                 <div class="sidebar-brand-text mx-3">Hilman</div>
             </a>
@@ -19,8 +19,8 @@
 
             <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('user/edit'); ?>">
-                    <i class="fas fa-user-circle"></i>
-                    <span>Profile</span></a>
+                <i class="fas fa-user-edit"></i>
+                    <span>Edit Profile</span></a>
             </li>
 
             <li class="nav-item">
@@ -30,7 +30,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?= base_url('auth/logout'); ?>">
+                <a class="nav-link" href="<?= base_url('auth/logout'); ?>" data-toggle="modal" data-target="#logoutModal">
                     <i class="fas fa-fw fa-sign-out-alt"></i>
                     <span>Logout</span></a>
             </li>
